@@ -1,15 +1,31 @@
-/* NEED TO KNOW */
-
+/* NEED TO KNOW 
+height: auto; 
+    background-position: center;
+    background-repeat: auto;
+    background-size: auto;
+    color: #CC0033;
+*/
+h1{
+  font-family: cursive;
+  text-align-last: center;
+  color: red;
+  background-color: black;
+'
+][]'}
+  </style>
+  
+}
+head{
+  background-color: black;
+}
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/pokehome.jpg);
-    /* Full height */
-  height: auto; 
-  /* Center and scale the image nicely */
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/Grass_Type.webp);
+    size-adjust:auto; 
+}
+
+:visited {
+  background-color: black;
 }
 blockquote{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -19,14 +35,11 @@ blockquote{
 .cat1{
     border: 10px solid rgb(42, 165, 132);
     display: block;
-    margin-left: auto;
+    margin-left: right;
     margin-right: auto;
     width: 50%;
 }
-h1{
-    font-family: cursive;
-    text-align-last: center;
-}
+
 footer {
     text-align: center;
     padding: 200px;
