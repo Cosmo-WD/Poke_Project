@@ -5,43 +5,81 @@ height: auto;
     background-size: auto;
     color: #CC0033;
 */
-h1{
-  font-family: cursive;
-  text-align-last: center;
-  color: red;
-  background-color: black;
-'
-][]'}
-  </style>
-  
-}
-head{
-  background-color: black;
-}
+/*Fucking Space*/
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(../img/Grass_Type.webp);
-    size-adjust:auto; 
+  font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(../img/Grass_Type.webp);
+  size-adjust:auto; 
 }
-
-:visited {
-  background-color: black;
+/*Fucking Space*/
+img.tpic{
+border: 5px outset lightcyan;
 }
-blockquote{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/*Fucking Space*/
+div.link button{
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
   text-align: center;
-  font-size: x-large;
+  text-decoration: none;
+  outline: none;
+  color: #150404;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #89d4bd;
 }
-.cat1{
-    border: 10px solid rgb(42, 165, 132);
-    display: block;
-    margin-left: right;
-    margin-right: auto;
-    width: 50%;
+div.link button:hover{
+  background-color: #693e8e;
 }
+div.link button:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #693e8e;
+  transform: translateY(4px);
+}
+button.leek {
+  background-image:url(https://archives.bulbagarden.net/media/upload/9/99/0083Farfetch%27d.png);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  back
+}
+button.serebii {
+  background-image:url(https://archives.bulbagarden.net/media/upload/3/3f/0251Celebi.png);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Fucking Space*/
+h1.title{
+  font-family: fantasy;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin:0;
+  border:0.5rem dotted white;
+  width: fit-content;
+}
+/*Fucking Space*/
+h2.reso{
 
-footer {
-    text-align: center;
-    padding: 200px;
-    color: white;
-  }
+}
+/*Fucking Space*/
+div.link{
+  background: 2rem solid whitesmoke;
+}
+/*Fucking Space*/
+img.trio-pic{
+  border: 1.5rem outset rgb(119, 78, 119);
+
+}
+/*Fucking Space*/
+h3.subt{
+
+}
+/*Fucking Space*/
+p {
+
+}
+/*Fucking Space*/
+
