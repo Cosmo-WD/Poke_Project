@@ -6,14 +6,11 @@ height: auto;
     color: #CC0033;
 */
 /*Fucking Space*/
+
 body{
   font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-image: url(../img/Grass_Type.webp);
   size-adjust:auto; 
-}
-/*Fucking Space*/
-img.tpic{
-border: 5px outset lightcyan;
 }
 /*Fucking Space*/
 div.link button{
@@ -52,6 +49,20 @@ button.serebii {
   background-position: center;
 }
 /*Fucking Space*/
+button.gt{
+  background-image:url(../img/gotwt.jpg);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Fucking Space*/
+button.pg{
+  background-image:url(../img/officalpogo.png);
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Fucking Space
 h1.title{
   font-family: fantasy;
   padding-right: 1em;
@@ -60,10 +71,39 @@ h1.title{
   border:0.5rem dotted white;
   width: fit-content;
 }
-/*Fucking Space*/
-h2.reso{
-
+Fucking Space*/
+.tpic{
+  border: 0.5em ridge pink;
 }
+
+.words {
+  position: absolute;
+  top: 12.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:0;
+  width: fit-content;
+}
+
+.slogan1{
+  position: absolute;
+  top: 22.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:0;
+  width: fit-content;
+}
+
 /*Fucking Space*/
 div.link{
   background: 2rem solid whitesmoke;
@@ -71,7 +111,10 @@ div.link{
 /*Fucking Space*/
 img.trio-pic{
   border: 1.5rem outset rgb(119, 78, 119);
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 /*Fucking Space*/
 h3.subt{
