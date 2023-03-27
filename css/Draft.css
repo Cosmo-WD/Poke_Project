@@ -1,0 +1,93 @@
+.tpic{
+  border: 0.5em ridge pink;
+}
+
+.pname {
+  box-sizing: content-box;
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:0;
+  width: fit-content;
+}
+
+.slogan1{
+  box-sizing: content-box;
+  position: absolute;
+  top:8rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:0;
+  width: fit-content;
+}
+
+div.link button{
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #150404;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px #89d4bd;
+  }
+  div.link button:hover{
+    background-color: #693e8e;
+  }
+  div.link button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #693e8e;
+    transform: translateY(4px);
+  }
+  button.leek {
+    background-image:url(https://archives.bulbagarden.net/media/upload/9/99/0083Farfetch%27d.png);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    back
+  }
+  button.serebii {
+    background-image:url(https://archives.bulbagarden.net/media/upload/3/3f/0251Celebi.png);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  button.gt{
+    background-image:url(../img/gotwt.jpg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  button.pg{
+    background-image:url(../img/officalpogo.png);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /*Fucking Space
+  h1.title{
+    font-family: fantasy;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin:0;
+    border:0.5rem dotted white;
+    width: fit-content;
+  }
+  Fucking Space*/
