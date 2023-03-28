@@ -48,6 +48,7 @@ body{
   border-radius:0;
   width: fit-content;
 }
+<<<<<<< HEAD
 
 nav {
   box-sizing: border-box;
@@ -56,6 +57,8 @@ nav {
   
 }
 
+=======
+>>>>>>> b3109a2bdd0254061dd2882efd77c9c689cf65c5
 /* Top Billing */
 
 /*⬇️Button START⬇️*/
@@ -78,17 +81,38 @@ nav {
   height: 4rem;
   margin: 1rem 1rem;
 }
+<<<<<<< HEAD
 .home:hover{
   background-color: #693e8e;
 }
+=======
+
+>>>>>>> b3109a2bdd0254061dd2882efd77c9c689cf65c5
 .home:active{
   background-color: #3e8e41;
   box-shadow: 0 5px #693e8e;
   transform: translateY(4px);
 }
+<<<<<<< HEAD
 .home{
   background-image:url(../img/homebutton.png);
   background-size:75%;
+=======
+.home:hover{
+  background-color: #693e8e;
+}
+.home:visited{
+background-color:#693e8e;
+box-shadow:0 5px #3e8e41;
+}
+.home:visited:hover{
+  background-color: #3e8e41;
+  box-shadow:#693e8e;
+}
+.home{
+  background-image:url(../img/homebutton.png);
+  background-size:100%;
+>>>>>>> b3109a2bdd0254061dd2882efd77c9c689cf65c5
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -122,7 +146,11 @@ nav {
 }
 .leek{
   background-image:url(../img/duckbutton.png);
+<<<<<<< HEAD
   background-size:75%;
+=======
+  background-size:50%;
+>>>>>>> b3109a2bdd0254061dd2882efd77c9c689cf65c5
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -156,7 +184,11 @@ nav {
 }
 .serebii{
   background-image:url(../img/serebiibutton.png);
+<<<<<<< HEAD
   background-size:75%;
+=======
+  background-size:70%;
+>>>>>>> b3109a2bdd0254061dd2882efd77c9c689cf65c5
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -230,6 +262,7 @@ nav {
 }
 /*Offical PoGo B-END*/
 
+<<<<<<< HEAD
 /*Offical Live Paint*/
 .lp {
   display: inline-block;
@@ -264,6 +297,8 @@ nav {
 }
 /*Offical Live Paint B-END*/
 
+=======
+>>>>>>> b3109a2bdd0254061dd2882efd77c9c689cf65c5
 /*⬆️Button END⬆️*/
 
 
