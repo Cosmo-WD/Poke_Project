@@ -5,80 +5,24 @@ height: auto;
     background-size: auto;
     color: #CC0033;
 */
-/*Fucking Space*/
-
+/*Page Layout*/
 body{
   font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-image: url(../img/Grass_Type.webp);
   size-adjust:auto; 
 }
-/*Fucking Space*/
-div.link button{
-  display: inline-block;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #150404;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 50px;
-  box-shadow: 0 9px #89d4bd;
-}
-div.link button:hover{
-  background-color: #693e8e;
-}
-div.link button:active{
-  background-color: #3e8e41;
-  box-shadow: 0 5px #693e8e;
-  transform: translateY(4px);
-}
-button.leek {
-  background-image:url(https://archives.bulbagarden.net/media/upload/9/99/0083Farfetch%27d.png);
-  background-size:50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  back
-}
-button.serebii {
-  background-image:url(https://archives.bulbagarden.net/media/upload/3/3f/0251Celebi.png);
-  background-size:50%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-/*Fucking Space*/
-button.gt{
-  background-image:url(../img/gotwt.jpg);
-  background-size:50%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-/*Fucking Space*/
-button.pg{
-  background-image:url(../img/officalpogo.png);
-  background-size:50%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-/*Fucking Space
-h1.title{
-  font-family: fantasy;
-  padding-right: 1em;
-  padding-left: 1em;
-  margin:0;
-  border:0.5rem dotted white;
-  width: fit-content;
-}
-Fucking Space*/
+/*Page Layout*/
+
+/* Top Billing */
 .tpic{
   border: 0.5em ridge pink;
+  margin-bottom: 0.5rem;
 }
 
-.words {
+.pname {
+  box-sizing: content-box;
   position: absolute;
-  top: 12.5%;
+  top: 4rem;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -90,9 +34,10 @@ Fucking Space*/
   width: fit-content;
 }
 
-.slogan1{
+.slogan{
+  box-sizing: content-box;
   position: absolute;
-  top: 22.5%;
+  top:8rem;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -103,6 +48,225 @@ Fucking Space*/
   border-radius:0;
   width: fit-content;
 }
+
+nav {
+  box-sizing: border-box;
+  padding: 1em 1em;
+  margin: auto;
+  
+}
+
+/* Top Billing */
+
+/*⬇️Button START⬇️*/
+
+/*Home B-START*/
+.home {
+  display: inline-block;
+  padding: 10px;
+  font-size: 0px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #150404;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #89d4bd;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem 1rem;
+}
+.home:hover{
+  background-color: #693e8e;
+}
+.home:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #693e8e;
+  transform: translateY(4px);
+}
+.home{
+  background-image:url(../img/homebutton.png);
+  background-size:75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Home B-END*/
+
+/*⏬️Leek Duck Button⏬️*/
+.leek {
+  display: inline-block;
+  padding: 10px;
+  font-size: 0px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #150404;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #89d4bd;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem 1rem;
+}
+.leek:hover{
+  background-color: #693e8e;
+}
+.leek:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #693e8e;
+  transform: translateY(4px);
+}
+.leek{
+  background-image:url(../img/duckbutton.png);
+  background-size:75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Leek Duck B-END*/
+
+/*Serebii  B-START*/
+.serebii {
+  display: inline-block;
+  padding: 10px;
+  font-size: 0px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #150404;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #89d4bd;
+  width:4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+.serebii:hover{
+  background-color: #693e8e;
+}
+.serebii:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #693e8e;
+  transform: translateY(4px);
+}
+.serebii{
+  background-image:url(../img/serebiibutton.png);
+  background-size:75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Serebii B-END*/
+
+/*GO Twitter B-START*/
+.gt {
+  display: inline-block;
+  padding: 10px;
+  font-size: 0px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #150404;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #89d4bd;
+  width:4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+.gt:hover{
+  background-color: #693e8e;
+}
+.gt:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #693e8e;
+  transform: translateY(4px);
+}
+.gt{
+  background-image:url(../img/gotwt.jpg);
+  background-size:99%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*GO Twitter B-END*/
+
+/*Offical PoGo B-START*/
+.pg {
+  display: inline-block;
+  padding: 10px;
+  font-size: 0px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #150404;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #89d4bd;
+  width:4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+.pg:hover{
+  background-color: #693e8e;
+}
+.pg:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #693e8e;
+  transform: translateY(4px);
+}
+.pg{
+  background-image:url(../img/officalpogo.png);
+  background-size:94%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Offical PoGo B-END*/
+
+/*Offical Live Paint*/
+.lp {
+  display: inline-block;
+  padding: 10px;
+  font-size: 0px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #150404;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #89d4bd;
+  width:4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+.lp:hover{
+  background-color: #693e8e;
+}
+.lp:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #693e8e;
+  transform: translateY(4px);
+}
+.lp{
+  background-image:url(../img/Smeargle.png);
+  background-size:94%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*Offical Live Paint B-END*/
+
+/*⬆️Button END⬆️*/
+
+
 
 /*Fucking Space*/
 div.link{
